@@ -13,5 +13,6 @@ spring:
         #show_sql : true
         format_sql: true
 logging:
-  level: debug
+  level:
+    org.hibernate.SQL: debug
 
